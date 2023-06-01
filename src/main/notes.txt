@@ -1,0 +1,27 @@
+
+1. Create Redis Config
+2. Setup RedisConfig.java
+3. Setup Redis environment variables in terminal(for testing with localhost domain)
+4. Create Pizza Controller and Pizza Model
+5. Configure Railway, publish to Railway
+6. Push initial copy to Github
+
+11. Create Delivery html
+12. 
+
+
+[Railway]
+Generate Domain
+Add Redis database
+Set environment variables
+
+
+[Github]
+Push to Github
+
+
+
+NotEmpty VS NotBlank
+- NotEmpty just means the length of the field cannot be 0. Whitespaces are counted as elements of the String hence inputting Whitespaces
+  will not count as empty.
+- NotBlank means the field cannot be of length 0, and must contain at least 1 character other than whitespaces as well.
